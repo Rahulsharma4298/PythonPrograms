@@ -76,7 +76,6 @@ If Quick Sort is used then O(n^2) in the worst case.
 Auxiliary Space: This too depends on sorting algorithm.
 The auxiliary space is O(n) for merge sort and O(1) for Heap Sort
 
-select max(salary) from Employee e inner join Department d on e.id = d.id group by d.d_id
 """
 def two_sum2(arr, n, target_sum):
     i = 0
